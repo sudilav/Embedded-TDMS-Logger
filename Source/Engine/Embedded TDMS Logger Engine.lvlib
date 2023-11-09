@@ -15,7 +15,7 @@
 		<Item Name="ReadWrite.vi" Type="VI" URL="../ReadWrite.vi"/>
 		<Item Name="Segment File.lvtest" Type="TestItem" URL="../Segment File.lvtest">
 			<Property Name="utf.test.bind" Type="Str">Embedded TDMS Logger Engine.lvlib:Segment File.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">8B9A5B61-A516-920A-EC3A-44B291F0FBDB</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">87402CDA-5E64-6F6C-924A-8EE32FEE5DA5</Property>
 		</Item>
 		<Item Name="Segment File.vi" Type="VI" URL="../Segment File.vi"/>
 		<Item Name="SetupTDMS.vi" Type="VI" URL="../SetupTDMS.vi"/>
@@ -24,5 +24,6 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="RTStateVariables.ctl" Type="VI" URL="../RTStateVariables.ctl"/>
 	</Item>
+	<Item Name="ETDMS_DebugError.vi" Type="VI" URL="../ETDMS_DebugError.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
