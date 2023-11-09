@@ -13,6 +13,10 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="ReadWrite.vi" Type="VI" URL="../ReadWrite.vi"/>
+		<Item Name="Segment File.lvtest" Type="TestItem" URL="../Segment File.lvtest">
+			<Property Name="utf.test.bind" Type="Str">Embedded TDMS Logger Engine.lvlib:Segment File.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">8B9A5B61-A516-920A-EC3A-44B291F0FBDB</Property>
+		</Item>
 		<Item Name="Segment File.vi" Type="VI" URL="../Segment File.vi"/>
 		<Item Name="SetupTDMS.vi" Type="VI" URL="../SetupTDMS.vi"/>
 		<Item Name="Start Wfms.vi" Type="VI" URL="../Start Wfms.vi"/>

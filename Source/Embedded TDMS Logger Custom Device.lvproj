@@ -27,7 +27,7 @@
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="TestRun.vi" Type="VI" URL="../Tests/TestRun.vi"/>
+			<Item Name="TestRun.vi" Type="VI" URL="../../Tests/TestRun.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
@@ -161,7 +161,6 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Embedded TDMS Logger</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -172,7 +171,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Embedded TDMS Logger/Windows/Embedded TDMS Logger Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08BECEEA-C2C4-4262-8351-7D8564FF9CB1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BC75A5EF-62AF-4A29-88DE-AC5A14253D58}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Embedded TDMS Logger.xml</Property>
@@ -331,15 +330,15 @@
 		</Item>
 	</Item>
 	<Item Name="RT PXI Target - Linux x64" Type="RT PXI Chassis">
-        <Property Name="alias.name" Type="Str">RT PXI Target</Property>
-        <Property Name="alias.value" Type="Str">0.0.0.0</Property>
-        <Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>             
-        <Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
-        <Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
-        <Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
-        <Property Name="host.TargetCPUID" Type="UInt">9</Property>
-        <Property Name="host.TargetOSID" Type="UInt">19</Property>                           
-        <Property Name="target.cleanupVisa" Type="Bool">false</Property>
+		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
+		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
+		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
+		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
+		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
+		<Property Name="host.TargetCPUID" Type="UInt">9</Property>
+		<Property Name="host.TargetOSID" Type="UInt">19</Property>
+		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
