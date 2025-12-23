@@ -580,6 +580,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Embedded TDMS Logger Engine.lvlib" Type="Library" URL="../Engine/Embedded TDMS Logger Engine.lvlib"/>
 		<Item Name="Embedded TDMS Logger Shared.lvlib" Type="Library" URL="../Shared/Embedded TDMS Logger Shared.lvlib"/>
+		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
